@@ -2,6 +2,7 @@
   "name": "test-app-node",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "prepare-kong-faiss": "ts-node prepare-kong-faiss.ts",
     "load-kong-faiss": "ts-node load-kong-faiss.ts",
